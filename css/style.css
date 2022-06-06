@@ -6,8 +6,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*outline: none;*/
-    /*border: none;*/
     text-decoration: none;
     transition: all .2s linear;
     list-style: none;
@@ -96,9 +94,29 @@ header {
 }
 
 
+#menu-icon {
+    display: none;
+}
 
+.cart {
+    position: relative;
+}
 
-
+.cart span {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10px;
+    right: -8px;
+    font-size: 0.6rem;
+    height: 15px;
+    width: 15px;
+    background: var(--main-color);
+    border-radius: 50%;
+    padding: 4px;
+    color: var(--bg-color);
+}
 
 
 
