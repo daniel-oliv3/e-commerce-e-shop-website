@@ -164,6 +164,7 @@ header {
 /* ======= Featured Section/Seção de Destaque ======= */
 .heading {
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .heading span {
@@ -177,7 +178,22 @@ header {
 }
 
 
+.featured-container .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: var(--container-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 1px 2px 4px rgb(15 54 55 / 10%);
+}
 
+.featured-container .box img {
+    width: 180px;
+    object-fit: contain;
+    object-position: center;
+}
 
 
 
