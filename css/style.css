@@ -70,10 +70,23 @@ header {
 }
 
 
+.navbar a {
+    position: relative;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar a:hover,
+.navbar .active {
+    color: var(--main-color);
+}
 
 
-
-
+.nav-icons {
+    display: flex;
+    column-gap: 1rem;
+}
 
 
 
