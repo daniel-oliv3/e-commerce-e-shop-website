@@ -1,20 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 
 * { 
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
-    border: none;
+    /*outline: none;*/
+    /*border: none;*/
     text-decoration: none;
     transition: all .2s linear;
+    list-style: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --main-color: #ff7c03;
+    --main-light-color: #ff8b1f;
+    --container-color: #f8f7fc;
+    --text-color: #1a1d22;
+    --bg-color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    color: var(--text-color);
+}
+
+section {
+    padding: 4rem 0 2rem;
 }
 
 
-
-/* ======= Header Section/Seção de Cabeçalho ======= */
+/* ======= Navbar Section/Barra de Navegação ======= */
 
 
 
