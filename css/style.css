@@ -212,8 +212,12 @@ header {
 
 
 
-
-
+/* ======= Shop Section/Seção de Shop ======= */
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    gap: 2rem;
+}
 
 
 
