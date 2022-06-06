@@ -35,8 +35,52 @@ section {
     padding: 4rem 0 2rem;
 }
 
+.container {
+    max-width: 938px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* ======= Navbar Section/Barra de Navegação ======= */
+header {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+
+.logo img {
+    width: 70px;
+}
+
+.navbar {
+    display: flex;
+    column-gap: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
