@@ -161,7 +161,20 @@ header {
 
 
 
+/* ======= Featured Section/Seção de Destaque ======= */
+.heading {
+    text-align: center;
+}
 
+.heading span {
+    border-bottom: 3px solid var(--main-color);
+}
+
+.featured-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    gap: 1.5rem;
+}
 
 
 
