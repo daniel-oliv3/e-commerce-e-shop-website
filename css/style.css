@@ -121,14 +121,22 @@ header {
 
 
 
+/* ======= Home Section/Seção inicial ======= */
+.home {
+    max-width: 1300px;
+    margin: auto;
+    min-height: 640px;
+    display: flex;
+    align-items: center;
+    background: var(--container-color);
+}
 
-
-
-
-
-
-
-
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
 
 
 
