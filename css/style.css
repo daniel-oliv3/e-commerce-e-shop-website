@@ -195,8 +195,20 @@ header {
     object-position: center;
 }
 
+.featured-container .box img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 
+.featured-container .box .text h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
 
+.featured-container .box .text a {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
 
 
 
