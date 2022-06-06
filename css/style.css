@@ -59,7 +59,6 @@ header {
     padding: 20px 0;
 }
 
-
 .logo img {
     width: 70px;
 }
@@ -68,7 +67,6 @@ header {
     display: flex;
     column-gap: 2rem;
 }
-
 
 .navbar a {
     position: relative;
@@ -82,11 +80,93 @@ header {
     color: var(--main-color);
 }
 
-
 .nav-icons {
     display: flex;
     column-gap: 1rem;
 }
+
+.nav-icons .bx {
+    font-size: 24px;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.nav-icons .bx:hover {
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
