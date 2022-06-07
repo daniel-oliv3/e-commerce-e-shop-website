@@ -302,12 +302,25 @@ header {
 
 
 /* ======= Footer Section/Seção de Rodapé ======= */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
 
+.footer logo {
+    margin-bottom: 1rem;
+}
 
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
 
-
-
-
+.social {
+    display: flex;
+    align-items: center;
+}
 
 
 
