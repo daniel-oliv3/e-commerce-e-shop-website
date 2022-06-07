@@ -21,6 +21,16 @@
     --bg-color: #fff;
 }
 
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background: #474040;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    background: var(--text-color);
+}
+
 img {
     width: 100%;
 }
@@ -368,26 +378,16 @@ header.shadow {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======= Responsive/Responsividade ======= */
+@media (max-width: 1080px){
+
+    .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+}
+
 @media (max-width: 991px){
 
     html {
