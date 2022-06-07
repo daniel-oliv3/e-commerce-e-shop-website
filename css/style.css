@@ -50,6 +50,12 @@ header {
     z-index: 100;
 }
 
+header.shadow {
+    background: var(--bg-color);
+    box-shadow: 2px 2px 4px rgb(15 54 55 / 10%);
+    transition: 0.5s;
+}
+
 .nav {
     display: flex;
     align-items: center;
@@ -356,7 +362,6 @@ header {
 .copyright span {
     color: var(--main-color);
 }
-
 
 
 
