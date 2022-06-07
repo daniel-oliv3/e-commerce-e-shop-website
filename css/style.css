@@ -348,9 +348,14 @@ header {
     color: var(--main-color);
 }
 
+.copyright {
+    padding: 25px;
+    text-align: center;
+}
 
-
-
+.copyright span {
+    color: var(--main-color);
+}
 
 
 
