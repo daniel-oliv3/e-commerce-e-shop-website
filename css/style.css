@@ -260,14 +260,32 @@ header {
 
 
 
+/* ======= Newsletter Section/Seção de Boletim de Notícias ======= */
+.newsletter {
+    display: grid;
+    justify-content: center;
+}
+
+.newsletter form {
+    margin-top: 2rem;
+    display: flex;
+    background: var(--container-color);
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+
+.newsletter form .email-box {
+    width: 250px;
+}
 
 
-
-
-
-
-
-
+.newsletter form input {
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--text-color);
+    font-size: 1rem;
+}
 
 
 
