@@ -322,6 +322,51 @@ header {
     align-items: center;
 }
 
+.social a {
+    font-size: 24px;
+    margin-right: 1rem;
+}
+
+.social a:hover {
+    transform: translateY(-4px);
+    transition: 0.4s;
+}
+
+.footer-box h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.footer-box a,
+.footer-box p {
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
+
+.footer-box a:hover {
+    color: var(--main-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
