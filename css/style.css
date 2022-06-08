@@ -417,11 +417,25 @@ header.shadow {
     .navbar {
         position: absolute;
         top: 100%;
-        right: 0;
+        right: -100%;
         width: 250px;
         height: 100vh;
         display: flex;
         flex-direction: column;
+        background: var(--bg-color);
+        row-gap: 0.5rem;
+        text-align: left;
+        box-shadow: 2px 2px 15px rgb(15 54 55 / 15%);
+        transition: 0.3s;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 15px;
+    }
+
+    .navbar.active {
+        right: 0;
     }
 
 }
