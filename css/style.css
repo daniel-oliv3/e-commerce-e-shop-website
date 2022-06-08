@@ -438,12 +438,44 @@ header.shadow {
         right: 0;
     }
 
+    .home-text h1 {
+        font-size: 2rem;
+    }
+
+    .heading h2 {
+        font-size: 1.4rem;
+    }
+
+    .shop-container {
+        grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    }
 }
 
-@media (max-width: 450px){
+@media (max-width: 672px){
 
-    html {
-        font-size: 50%;
+    .home-container {
+        grid-template-columns: 1fr;
+    }
+
+    .home-text {
+        order: 2;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    }
+
+    .newsletter form .email-box {
+        width: 180px;
+    }
+
+}
+
+@media (max-width: 360px){
+
+    .logo img {
+        width: 54px;
     }
 
 }
