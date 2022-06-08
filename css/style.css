@@ -478,4 +478,29 @@ header.shadow {
         width: 54px;
     }
 
+    .nav-icons .bx {
+        font-size: 20px;
+    }
+
+    .home-text p br {
+        display: contents;
+    }
+
+    .heading h2 {
+        font-size: 1.2rem;
+    }
+
+    .featured-container .box img {
+        width: 135px;
+    }
+
+    .newsletter form .email-box {
+        width: 140px;
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 14px 20px;
+    }
+
 }
